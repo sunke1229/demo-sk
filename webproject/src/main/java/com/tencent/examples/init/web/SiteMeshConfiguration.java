@@ -34,11 +34,11 @@ public class SiteMeshConfiguration {
 
         @Override
         protected void applyCustomConfiguration(SiteMeshFilterBuilder builder) {
-            builder.addDecoratorPath("/*", "/WEB-INF/layouts/decorator.jsp")//对所有jsp页面进行装饰
+          /*  builder.addDecoratorPath("/*", "/WEB-INF/layouts/decorator.jsp")//对所有jsp页面进行装饰
                     .addExcludedPath("/static/*")//静态资源忽略
                     .addExcludedPath("/rest/*") //接口请求忽略
                     .addExcludedPath("/*.html") //接口请求忽略
-                    ;
+                    ;*/
         }
     }
 }
